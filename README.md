@@ -1,5 +1,8 @@
 # test-loopback-rest-connector
 
 Clone the sample application
->npm install
->node .
+
+
+$npm install
+
+$node .
