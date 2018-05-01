@@ -1,0 +1,19 @@
+{
+  "opendata": {
+    "name": "opendata",
+    "baseURL": "https://api.lloydsbank.com/open-banking/v2.1/",
+    "crud": false,
+    "connector": "rest",
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "https://api.lloydsbank.com/open-banking/v2.1/personal-current-accounts"
+        },
+        "functions": {
+          "getProduct": []
+        }
+      }
+    ]
+  }
+}
